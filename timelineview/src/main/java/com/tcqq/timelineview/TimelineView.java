@@ -87,7 +87,6 @@ public class TimelineView extends View {
         mMarkerInCenter = typedArray.getBoolean(R.styleable.TimelineView_timeline_marker_in_center, true);
         mStartLineColor = typedArray.getColor(R.styleable.TimelineView_timeline_start_line_color, getResources().getColor(android.R.color.darker_gray));
         mEndLineColor = typedArray.getColor(R.styleable.TimelineView_timeline_end_line_color, getResources().getColor(android.R.color.darker_gray));
-        mMarkerColor = typedArray.getColor(R.styleable.TimelineView_timeline_marker_color, getThemeColor(R.attr.colorAccent, getContext()));
         mLineWidth = typedArray.getDimensionPixelSize(R.styleable.TimelineView_timeline_line_width, Utils.dp2px(2F));
         mLineOrientation = typedArray.getInt(R.styleable.TimelineView_timeline_line_orientation, LineOrientation.VERTICAL);
         mLinePadding = typedArray.getDimensionPixelSize(R.styleable.TimelineView_timeline_line_padding, 0);
